@@ -1,0 +1,32 @@
+button {
+  --shadow-color: var(--red-9);
+  padding: 0;
+  background-color: var(--gray-0);
+  color: var(--red-9);
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: var(--shadow-2);
+  font-weight: var(--font-weight-5);
+  border-radius: var(--radius-conditional-2);
+}
+
+button > * {
+  --flow-space: var(--size-4);
+  display: block;
+  padding: var(--size-2) var(--size-4);
+  text-align: left;
+}
+
+button .amt {
+  font-size: var(--font-size-fluid-2);
+}
+
+button span:last-child {
+  background-color: var(--red-9);
+  border-bottom-left-radius: var(--radius-conditional-2);
+  border-bottom-right-radius: var(--radius-conditional-2);
+  color: var(--red-1);
+  text-align: center;
+}

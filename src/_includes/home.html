@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>{{ heading }}</h1>
+  <p class="subtitle">{{ subtitle }}</p>
+  {{ content | safe }}
+  <div class="cluster">
+    {% include "partials/checkout.html"%}
+  </div>
+{% endblock %}

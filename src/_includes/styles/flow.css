@@ -1,0 +1,6 @@
+.flow > * + * {
+  margin-top: var(--flow-space, 1em);
+}
+:where(.flow) {
+  --flow-space: var(--size-fluid-4);
+}
