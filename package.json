@@ -17,6 +17,8 @@
     "@11ty/eleventy": "^1.0.0"
   },
   "dependencies": {
-    "@11ty/eleventy-plugin-directory-output": "^1.0.1"
+    "@11ty/eleventy-plugin-directory-output": "^1.0.1",
+    "cobe": "^0.4.1",
+    "esbuild": "^0.14.23"
   }
 }
