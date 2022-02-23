@@ -2,15 +2,16 @@
 title: Globe
 heading: Globe
 ---
-
 {% extends "base.html" %}
 
-{% block content %}
-  <h1>{{ heading }}</h1>
-  <canvas
-  id="cobe"
-  style="width: 343px; height: 343px;"
-  width="686"
-  height="686"
-></canvas>
-{% endblock %}
+{% block kitchenSink %}
+    <div class="globe">
+      <canvas
+        id="cobe"
+        style="width: 600px; height: 600px;"
+        width="1200"
+        height="1200"
+      ></canvas>
+    </div>
+    <script src="/scripts/app.js"></script>
+  {% endblock %}

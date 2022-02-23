@@ -5,9 +5,13 @@
 
 body {
   border-block-start: var(--border-size-3) solid var(--red-9);
-  padding: var(--size-fluid-2);
+
   display: flex;
   flex-direction: column;
+}
+
+body > * {
+  padding: var(--size-fluid-2);
 }
 
 h1 {

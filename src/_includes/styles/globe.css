@@ -1,0 +1,12 @@
+.globe {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+canvas {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+}
